@@ -3,6 +3,7 @@
 const path = require('path');
 
 const nextConfig = {
+  distDir: "dist",
   eslint: {
     dirs: ['src'],
   },
